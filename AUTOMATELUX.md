@@ -63,6 +63,45 @@ prendre les rendez-vous, relancer les clients.
 Cibles prioritaires : salons de coiffure (Luxembourg-Ville, Esch, Differdange),
 vétérinaires / cliniques animales, cabinets notariaux juniors.
 
+### Conditions commerciales standard (validées par le gérant le 28/10/2026)
+
+| Condition | Règle |
+|---|---|
+| Validité d'une proposition | 30 jours à compter de la date d'envoi |
+| Acompte | 50 % de la mise en place à la commande ; aucun travail avant réception du virement |
+| Solde de la mise en place | 50 % restants à la mise en service (J7) |
+| Abonnement | Démarre à la mise en service (J7), payable d'avance chaque mois, premier mois au prorata |
+| Engagement | 3 mois minimum, puis résiliable chaque mois avec un préavis de 30 jours |
+| Minutes d'appel incluses / mois | Starter 300 min — Pro 800 min — Elite 2 000 min ; au-delà sur devis |
+| Support | À distance par e-mail, réponse sous 1 jour ouvré, du lundi au vendredi (délai de réponse, pas de résolution) |
+| En cas de panne de l'agent vocal | Les appels reviennent automatiquement sur la messagerie habituelle du client (à configurer à chaque mise en place) |
+
+Les plafonds de minutes sont une décision du gérant. Leur marge n'a pas été calculée sur le
+coût réel par minute (Vapi + voix + téléphonie) : **ESTIMÉ** couvert, à vérifier sur les
+premières factures Vapi.
+
+### Langues de l'agent vocal (testées au téléphone)
+
+| Langue | Statut |
+|---|---|
+| Français | Testé, fonctionnel |
+| Portugais | Testé, fonctionnel (sur un projet de restaurant — ne pas citer ce projet comme référence sans accord écrit) |
+| Luxembourgeois | **Non testé** — ne jamais le promettre ; au plus « à valider pendant les tests de J4 » |
+| Anglais | **Non testé** — même règle |
+
+Ne pas confondre avec les langues dans lesquelles le gérant échange avec ses clients.
+
+### Documents contractuels
+
+| Document | Statut |
+|---|---|
+| Conditions générales de vente (CGV) | **N'existent pas encore** — ne jamais les annoncer comme « jointes » |
+| Contrat de sous-traitance RGPD (art. 28) | **N'existe pas encore** — ne jamais l'annoncer comme « remis à la signature » |
+
+Le contrat de sous-traitance est probablement obligatoire avant toute mise en service d'un agent
+vocal qui traite les appels et les données des clients d'un client (PROBABLE, à faire valider
+par un juriste). Tant qu'il n'existe pas, signaler ce manque sur chaque proposition de l'agence IA.
+
 ### Livraison type (7 jours)
 
 ```
