@@ -1,6 +1,7 @@
 # Analyse d'impact des transferts de données vers les États-Unis (TIA)
 
-> **PROJET — version 0.1 du 28/10/2026 — NON VALIDÉ JURIDIQUEMENT.**
+> **PROJET — version 0.2 du 28/10/2026 — NON VALIDÉ JURIDIQUEMENT.**
+> v0.2 : Airtable (États-Unis) remplacé par Baserow (UE) — mesure M3 appliquée.
 > Document interne d'AutomateLux S.à r.l.-S, exigé par l'article 7.2 du contrat de sous-traitance
 > (v0.2) et par la clause 14 des clauses contractuelles types 2021/914. Méthode : les six étapes
 > des **recommandations 01/2020 du Comité européen de la protection des données (EDPB)**.
@@ -25,16 +26,16 @@ Données sensibles : non recherchées ; **révélations spontanées possibles** 
 | Vapi (Superpowered Inc.) | Plateforme vocale | Audio en temps réel, transcription, métadonnées | Pendant l'appel ; **avec Zero Data Retention : pas de conservation du contenu après l'appel** (métadonnées de facturation conservées) | **Clauses contractuelles types** (non certifié DPF — VÉRIFIÉ) |
 | OpenAI (via OpenAI Ireland Ltd ; traitement par OpenAI OpCo, LLC) | Génération des réponses | Texte de la conversation | Conservation **jusqu'à 30 jours** pour la détection d'abus ; **aucune** si Zero Data Retention accordé — VÉRIFIÉ | **Clauses contractuelles types** (non certifié DPF — VÉRIFIÉ) |
 | Fournisseur de transcription **[à confirmer — Deepgram ?]** | Reconnaissance vocale | Audio en temps réel | **À VÉRIFIER** | **À VÉRIFIER** (Deepgram : non certifié DPF — VÉRIFIÉ) |
-| Airtable (Formagrid Inc.) | Stockage des rendez-vous | Nom, téléphone, rendez-vous | Durée du contrat | **Clauses contractuelles types** (non certifié DPF — VÉRIFIÉ) |
+| ~~Airtable~~ → **Baserow** (Pays-Bas) | Stockage des rendez-vous et transcriptions | Nom, téléphone, rendez-vous, transcriptions | — | **Pas de transfert** : hébergement dans l'UE (Allemagne) — VÉRIFIÉ ; hébergeur et sous-traitants de Baserow **À VÉRIFIER** |
 | ElevenLabs | Synthèse vocale | Texte des réponses de l'assistant (peut contenir prénom, date) | **À VÉRIFIER** | **Data Privacy Framework** — certification active (VÉRIFIÉ) : **pas de TIA requise**, voir étape 3.4 |
 | Twilio (si utilisé) | Téléphonie | Numéro, flux audio | — | **Data Privacy Framework** — certification active (VÉRIFIÉ) : **pas de TIA requise** |
 
-**Transferts couverts par la présente analyse** : Vapi, OpenAI, Airtable et le fournisseur de transcription.
+**Transferts couverts par la présente analyse** : Vapi, OpenAI et le fournisseur de transcription.
 
 ## Étape 2 — Outil de transfert
 
 Clauses contractuelles types 2021/914, **module 3 (sous-traitant vers sous-traitant)**, intégrées aux
-contrats de traitement de données (DPA) de Vapi, OpenAI et Airtable. **[À VÉRIFIER pour chacun :
+contrats de traitement de données (DPA) de Vapi et d'OpenAI. **[À VÉRIFIER pour chacun :
 module effectivement retenu et acceptation du DPA dans le compte d'AutomateLux. Pour OpenAI, le
 cocontractant d'un client de l'EEE est OpenAI Ireland Ltd — VÉRIFIÉ.]**
 
@@ -44,7 +45,7 @@ cocontractant d'un client de l'EEE est OpenAI Ireland Ltd — VÉRIFIÉ.]**
 
 - **Section 702 du FISA** (collecte de renseignement visant des personnes non américaines, auprès
   des « fournisseurs de services de communications électroniques », catégorie qui inclut
-  **probablement** les fournisseurs de cloud et d'IA comme Vapi, OpenAI et Airtable).
+  **probablement** les fournisseurs de cloud et d'IA comme Vapi et OpenAI).
   **Situation au 28/10/2026** : la loi n'a pas été reconduite par le Congrès et **a expiré en juin
   2026**, mais **la collecte se poursuit jusqu'en mars 2027** sur la base d'une décision de la
   cour FISC du 17 mars 2026, qui n'a pas été déclassifiée — VÉRIFIÉ (presse spécialisée, octobre 2026).
@@ -89,8 +90,8 @@ certification est active. Ils sont toutefois exposés au même risque d'invalida
 | Nature des données | Faible sensibilité : rendez-vous de salon, de restaurant. **Élevée** si un client est un cabinet de santé humaine. |
 | Intérêt pour un service de renseignement | **Faible** (PROBABLE) : petites entreprises luxembourgeoises sans lien avec la sécurité nationale ou le terrorisme. Cela n'exclut pas une collecte de masse ou par sélecteurs larges. |
 | Volume | Faible (quelques centaines à milliers d'appels par mois). |
-| Durée d'exposition | Réduite pour Vapi (Zero Data Retention) et OpenAI (30 jours, 0 avec ZDR). **Longue pour Airtable** (stockage permanent des rendez-vous). |
-| Demandes déjà reçues par les prestataires | **À VÉRIFIER** : rapports de transparence de Vapi, OpenAI, Airtable et du fournisseur de transcription. |
+| Durée d'exposition | Réduite pour Vapi (Zero Data Retention) et OpenAI (30 jours, 0 avec ZDR). Le stockage permanent des rendez-vous est désormais **dans l'UE** (Baserow) : il ne fait plus l'objet d'un transfert. |
+| Demandes déjà reçues par les prestataires | **À VÉRIFIER** : rapports de transparence de Vapi, OpenAI et du fournisseur de transcription. |
 
 **Conclusion de l'étape 3** : le droit américain permet un accès plus large que ce qu'admet le droit
 de l'UE, mais les garanties de l'EO 14086 s'appliquent et ont été jugées suffisantes par la
@@ -114,7 +115,7 @@ prestataires.** La protection repose sur la minimisation et la durée d'expositi
 |---|---|---|---|---|
 | M1 | Activer **Zero Data Retention** de Vapi | Vapi | Plus aucun contenu d'appel conservé aux États-Unis après l'appel | **À FAIRE** (gratuit) |
 | M2 | Demander le **Zero Data Retention** à OpenAI pour le compte d'AutomateLux | OpenAI | Supprime la conservation de 30 jours | **À FAIRE** (sur demande, accord non garanti) |
-| M3 | **Remplacer Airtable par un stockage situé dans l'UE** pour les rendez-vous et transcriptions | Airtable | **Supprime le transfert le plus long** | **RECOMMANDÉ** — choix du prestataire à faire |
+| M3 | **Remplacer Airtable par Baserow, hébergé dans l'UE**, pour les rendez-vous et transcriptions | Airtable | **Supprime le transfert le plus long** | **DÉCIDÉ le 28/10/2026** — migration **À FAIRE** |
 | M4 | Pas d'enregistrement audio | Tous | Moins de données sensibles et identifiantes | Recommandé dans le contrat (art. 2) |
 | M5 | Consignes à l'assistant : ne pas demander le motif détaillé ni de données de santé ; ne pas reprendre les révélations spontanées | Tous | Minimisation | **À FAIRE** dans la configuration |
 | M6 | Transcriptions conservées [30] jours au maximum, puis suppression | Stockage | Exposition réduite | Prévu au contrat |
@@ -132,7 +133,7 @@ prestataires.** La protection repose sur la minimisation et la durée d'expositi
 
 ## Étape 5 — Étapes procédurales
 
-- Accepter et archiver les DPA (avec clauses contractuelles types) de Vapi, OpenAI, Airtable et du
+- Accepter et archiver les DPA (avec clauses contractuelles types) de Vapi, d'OpenAI et du
   fournisseur de transcription, avec leur date. **À FAIRE.**
 - Informer les clients de la liste des prestataires et des bases de transfert (annexe 1 du contrat).
 - Conserver la présente analyse et la tenir à la disposition des clients et de la CNPD.
@@ -153,11 +154,11 @@ Réévaluer **au moins une fois par an**, et immédiatement en cas de :
 | **Vapi** | **Acceptable sous condition** d'activer Zero Data Retention (M1) et d'appliquer M4, M5, M8. |
 | **OpenAI** | **Acceptable sous condition** : M5 et M8 ; M2 fortement recommandé. Pas d'entraînement sur les données de l'API par défaut — VÉRIFIÉ. |
 | **Fournisseur de transcription** | **Non concluable** tant que le prestataire, sa localisation et son DPA ne sont pas confirmés. |
-| **Airtable** | **Risque résiduel le plus élevé** (conservation longue). **Recommandation : remplacer par un stockage dans l'UE (M3).** À défaut : acceptable à titre transitoire avec M6 et M8. |
+| **Stockage (Baserow)** | **Plus de transfert** une fois la migration terminée. Jusque-là, Airtable reste un transfert sous clauses contractuelles types, acceptable à titre transitoire avec M6. |
 | **Secteur santé humaine** | **Non acceptable** avec la chaîne actuelle (M9). |
 
 **Risque résiduel global** : **modéré à faible** pour des données de rendez-vous peu sensibles, une
-fois M1, M3, M4 et M5 en place. Ce risque dépend fortement de l'issue du pourvoi C-703/25 P.
+fois M1, M3 (migration vers Baserow), M4 et M5 en place. Ce risque dépend fortement de l'issue du pourvoi C-703/25 P.
 
 Établi par : AutomateLux S.à r.l.-S — Nilton Soares, gérant — le [date de validation].
 

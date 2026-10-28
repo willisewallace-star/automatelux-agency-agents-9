@@ -10,6 +10,7 @@
 > de l'entraînement de modèles (art. 4), révélations spontanées et option santé (art. 2 et 10),
 > transferts par prestataire avec analyse d'impact (art. 7), demandes des autorités (art. 8),
 > articulation avec les CGV (art. 9), annexe 1 complétée.
+> **Mise à jour du 28/10/2026** : Airtable (États-Unis) remplacé par Baserow (UE) pour le stockage.
 
 ---
 
@@ -159,7 +160,7 @@ Le Client, en tant que responsable du traitement, s'engage à :
 2. Lorsque la loi lui interdit d'informer le Client, AutomateLux s'efforce d'obtenir la levée de
    cette interdiction et documente sa démarche.
 3. AutomateLux impose ou vérifie des engagements équivalents chez ses sous-traitants ultérieurs
-   établis hors de l'EEE. **[À VÉRIFIER : ce que les DPA de Vapi, OpenAI, Airtable et du
+   établis hors de l'EEE. **[À VÉRIFIER : ce que les DPA de Vapi, OpenAI et du
    fournisseur de transcription prévoient déjà sur ce point.]**
 
 ## Article 9 — Responsabilité
@@ -221,7 +222,7 @@ des prestataires. Les conditions réellement attachées aux comptes d'AutomateLu
 | **[Fournisseur de transcription — à confirmer dans le compte Vapi]** | Reconnaissance vocale | [Direct (clé API d'AutomateLux) / via Vapi — à confirmer] | [à compléter] | [à compléter — ex. Deepgram : non certifié DPF, clauses contractuelles types à vérifier] | **Non confirmé** |
 | **[Opérateur téléphonique — à confirmer]** (ex. Twilio Inc.) | Numéro et acheminement des appels | [à confirmer] | [à compléter] | Si Twilio : **Data Privacy Framework** — certification active vérifiée le 28/10/2026 | Sans objet |
 | **Celonis (Make.com)** | Automatisations (webhooks) | Direct — DPA Make | Union européenne (région EU1) **[à confirmer]** | Hébergement UE ; Celonis Inc. certifiée DPF (vérifié le 28/10/2026) | **Non confirmé** |
-| Formagrid Inc. (**Airtable**), États-Unis | Stockage des rendez-vous et journaux | Direct — DPA Airtable **[à confirmer selon l'offre]** | États-Unis | Clauses contractuelles types + analyse d'impact | **Non confirmé** |
+| **Baserow** B.V., Pays-Bas | Stockage des rendez-vous et des transcriptions | Direct — DPA Baserow **[à accepter dans le compte]** | Union européenne (Allemagne) — VÉRIFIÉ (documentation Baserow) | Sans objet (UE) ; **[À VÉRIFIER : identité de l'hébergeur et éventuels sous-traitants hors UE]** | **Non confirmé** |
 | **Brevo** (Sendinblue SAS), France | Envoi des rappels par e-mail / SMS | Direct — DPA Brevo | Union européenne **[à confirmer]** | Sans objet si UE | **Non confirmé** |
 
 ## Annexe 2 — Mesures de sécurité (article 32 RGPD)
@@ -231,8 +232,8 @@ des prestataires. Les conditions réellement attachées aux comptes d'AutomateLu
 - **Zero Data Retention activé sur la plateforme vocale (Vapi)** : aucun enregistrement, transcription
   ni résumé n'est conservé par Vapi après l'appel ; seules des métadonnées techniques et de
   facturation sont conservées.
-- Transcriptions conservées uniquement dans le stockage désigné par AutomateLux :
-  **[à compléter : prestataire et pays — recommandation : stockage situé dans l'UE]**.
+- Rendez-vous et transcriptions conservés uniquement dans **Baserow, hébergé dans l'Union
+  européenne (Allemagne)**.
 - Accès aux comptes des prestataires protégés par mot de passe unique et authentification à deux facteurs.
 - Accès limité au gérant d'AutomateLux ; aucun partage d'identifiants.
 - Chiffrement des échanges (HTTPS/TLS) entre les services.

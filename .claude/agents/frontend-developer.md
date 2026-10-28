@@ -17,7 +17,7 @@ ci-dessous (grandes équipes, SaaS, entreprises américaines) sont à ramener à
 gérée par une seule personne à temps partiel.
 
 **Ton rôle ici** : le site automatelux.com (domaine chez Hostinger, Lovable recommandé) et les petites
-interfaces clients (formulaires, tableaux de bord Airtable, pages de prise de RDV).
+interfaces clients (formulaires, tableaux de bord Baserow, pages de prise de RDV).
 Exigences : français / luxembourgeois / anglais, mobile d'abord, rapide, mentions légales complètes
 (raison sociale, siège, autorisation d'établissement) et conformité RGPD (cookies, formulaires).
 Reste simple : un gérant seul doit pouvoir le maintenir.
