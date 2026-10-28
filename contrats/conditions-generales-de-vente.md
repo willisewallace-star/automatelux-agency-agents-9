@@ -117,6 +117,8 @@ en conditions réelles, et ne constitue pas un engagement avant ces tests.
 3. La responsabilité totale d'AutomateLux est limitée aux sommes payées par le Client au titre
    des **[12]** derniers mois. **[Plafond à valider par le juriste et l'assureur RC.]**
 4. Ces limitations ne s'appliquent pas en cas de faute lourde ou intentionnelle.
+5. La responsabilité d'AutomateLux en matière de protection des données personnelles est régie par
+   l'article 9 du contrat de sous-traitance RGPD, qui déroge au présent article.
 
 ## Article 12 — Propriété intellectuelle
 

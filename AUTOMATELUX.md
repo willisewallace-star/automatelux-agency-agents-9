@@ -99,7 +99,7 @@ Ne pas confondre avec les langues dans lesquelles le gérant échange avec ses c
 | Convention d'emplacement (automates, avec le propriétaire du site) | **Projet v0.1 non validé** (`contrats/convention-emplacement-automate.md`) — risque de requalification en bail commercial à trancher par le juriste |
 | Conditions d'utilisation des automates (utilisateurs) | **Projet v0.1 non validé** (`contrats/conditions-utilisation-automates.md`) — droit de la consommation applicable |
 | Notice d'information des appelants (modèle pour les clients) | **Projet v0.1 non validé** (`contrats/notice-information-appelants.md`) — à faire publier par chaque client avant la mise en service ; le message d'accueil de l'agent vocal en est la partie A |
-| Contrat de sous-traitance RGPD (art. 28) | **Projet v0.1 non validé** (`contrats/contrat-sous-traitance-rgpd.md`) — ne jamais l'annoncer comme « remis à la signature » avant validation par un juriste |
+| Contrat de sous-traitance RGPD (art. 28) | **Projet v0.2 non validé** (`contrats/contrat-sous-traitance-rgpd.md`) — ne jamais l'annoncer comme « remis à la signature » avant validation par un juriste |
 
 Le contrat de sous-traitance est probablement obligatoire avant toute mise en service d'un agent
 vocal qui traite les appels et les données des clients d'un client (PROBABLE, à faire valider
