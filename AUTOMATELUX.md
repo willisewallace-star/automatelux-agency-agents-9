@@ -95,8 +95,8 @@ Ne pas confondre avec les langues dans lesquelles le gérant échange avec ses c
 
 | Document | Statut |
 |---|---|
-| Conditions générales de vente (CGV) | **N'existent pas encore** — ne jamais les annoncer comme « jointes » |
-| Contrat de sous-traitance RGPD (art. 28) | **N'existe pas encore** — ne jamais l'annoncer comme « remis à la signature » |
+| Conditions générales de vente (CGV) | **Projet v0.1 non validé** (`contrats/conditions-generales-de-vente.md`) — ne jamais les annoncer comme « jointes » avant validation par un juriste |
+| Contrat de sous-traitance RGPD (art. 28) | **Projet v0.1 non validé** (`contrats/contrat-sous-traitance-rgpd.md`) — ne jamais l'annoncer comme « remis à la signature » avant validation par un juriste |
 
 Le contrat de sous-traitance est probablement obligatoire avant toute mise en service d'un agent
 vocal qui traite les appels et les données des clients d'un client (PROBABLE, à faire valider
