@@ -25,8 +25,20 @@ Langues : français (principal), luxembourgeois et anglais (secondaires).
 Ressources : gérant seul, temps partiel (~20 h/semaine), budget de départ très serré
 (~500 €), acquisition organique en priorité.
 
-**À VÉRIFIER — e-mails et téléphone de contact** : les adresses connues sont rattachées à
-un autre nom de gérant. Ne jamais en inventer : écrire `[e-mail à compléter]`.
+### Gérant légal et nom commercial
+
+- **Nilton Soares est le seul gérant** : RCS, statuts, autorisation, contrats, factures,
+  signatures, banques, administrations. Partout où une personne engage la société, c'est lui.
+- **« Léon » est un prénom commercial fictif** (persona de prospection et de contact), au
+  même titre que « Claude » ou « Marie ». Il peut signer un e-mail de prospection
+  (« Léon — AutomateLux ») et utiliser l'adresse `leon@automatelux.com`.
+- « Léon » ne porte **jamais** le titre de gérant, ne signe **jamais** un contrat, une
+  proposition engageante ou une facture, et n'apparaît dans aucun document officiel.
+- Si un prospect ou un client demande à qui il parle, ne pas mentir : orienter vers Nilton
+  Soares. Si « Léon » est la voix d'un agent IA, elle doit s'annoncer comme automatisée.
+
+E-mail de contact commercial : `leon@automatelux.com`. Téléphone : ne jamais l'inventer,
+écrire `[téléphone à compléter]`.
 
 ---
 
