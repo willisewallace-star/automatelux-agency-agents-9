@@ -1,6 +1,7 @@
 # E-mails aux fournisseurs de stockage — 29/10/2026
 
-> **Brouillons, non envoyés.** Expéditeur : Nilton Soares, gérant (ce sont des échanges contractuels avec un
+> **Envoyés par Nilton Soares le 29/10/2026** (SeaTable par e-mail, Baserow par formulaire de contact).
+> **Réponse attendue : 12/11/2026.** Sans réponse : une relance, puis fournisseur écarté. Expéditeur : Nilton Soares, gérant (ce sont des échanges contractuels avec un
 > fournisseur : pas de prénom commercial). Adresse d'envoi : **[à choisir]**.
 > Archiver les réponses dans `contrats/correspondance/` : elles serviront de preuve pour l'annexe 1 du contrat
 > de sous-traitance et pour l'analyse d'impact des transferts.
