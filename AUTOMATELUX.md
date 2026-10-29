@@ -22,7 +22,7 @@ Niveaux de confiance utilisés : **VÉRIFIÉ** (document officiel), **PROBABLE**
 | Statuts | Version V4 définitive — ne pas proposer de les modifier |
 
 Langues : français (principal), luxembourgeois et anglais (secondaires).
-Ressources : gérant seul, temps partiel (~20 h/semaine), budget de départ très serré
+Ressources : gérant seul, **à temps plein** sur AutomateLux (depuis le 29/10/2026), budget de départ très serré
 (~500 €), acquisition organique en priorité.
 
 ### Gérant légal et nom commercial
