@@ -33,7 +33,7 @@
 >    it becomes aware of during the agreement. Could you confirm that this clause does not cover the data our
 >    clients store in Baserow Cloud, and that the DPA prevails on this point?
 >
-> We would be grateful for a reply by **[date — ex. 12/11/2026]**, as it determines our choice of provider.
+> We would be grateful for a reply by **12 November 2026**, as it determines our choice of provider.
 >
 > Kind regards,
 >
@@ -74,7 +74,7 @@ l'article 8.4 de leurs conditions ne vise pas les données de nos clients. Répo
 >    accesses logged, and would affected customers be informed?
 > 4. **Subprocessors.** Could you send us your current list of subprocessors (name, purpose, location)?
 >
-> We would be grateful for a reply by **[date — ex. 12/11/2026]**, as it determines our choice of provider.
+> We would be grateful for a reply by **12 November 2026**, as it determines our choice of provider.
 >
 > Kind regards,
 >
